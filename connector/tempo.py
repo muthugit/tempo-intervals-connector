@@ -24,7 +24,7 @@ class Tempo:
                             "description": f"{log['issue']['key']} - {log['description']}",
                             "time_hrs": (log["timeSpentSeconds"] / 60 / 60)
                         }
-                        )
+                    )
         return timesheet_logs
 
 
