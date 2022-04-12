@@ -24,5 +24,5 @@ class RunTimesheet:
 
 if __name__ == "__main__":
     ts = RunTimesheet()
-    ts.timesheet_date = "2022-04-12"
+    # ts.timesheet_date = "2022-04-12"
     ts.run()
